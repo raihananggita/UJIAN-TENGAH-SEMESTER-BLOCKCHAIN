@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nCoin",
+						"type": "uint256"
+					}
+				],
+				"name": "addCoin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "viewTotalCoin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tugas2.sol": "helloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tugas2.sol": {
+			"keccak256": "0x8c162715623de8ff84929667aea0393efeee5639dca96c96738d874c7268927d",
+			"urls": [
+				"bzz-raw://c31d1f0b0343cbbb877cb225f5a6e10aa429ef9c519db4316f5fef978c47beb8",
+				"dweb:/ipfs/QmRx3xtGb4HtZThfRBDJJB1Mpe33GFbm43Sr1KRMif6p7n"
+			]
+		}
+	},
+	"version": 1
+}
